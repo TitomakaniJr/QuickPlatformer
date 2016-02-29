@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="shortcut icon" type="image/png" href="coinGold.png" />
+		<script src="src/quick.js"></script>
+
+		<style>
+			#assets {
+				height: 1px;
+				overflow: hidden;
+				visibility: hidden;
+				width: 1px;
+			}
+
+			body {
+				background-color: Black;
+				margin: 0;
+				overflow: hidden;
+				padding: 0;
+			}
+
+			canvas {
+				cursor: none;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div align="center">
+			<canvas id="canvas" width="640" height="400"></canvas>
+		</div>
+
+		<div id="assets">
+			<img id="playerSpriteDuck" src="sprites/p1_duck.png" width="32" height="32" />
+			<img id="playerSpriteHurt" src="sprites/p1_hurt.png" width="32" height="32" />
+			<img id="playerSpriteJump" src="sprites/p1_jump.png" width="32" height="32" />
+			<img id="playerSpriteStand" src="sprites/p1_stand.png" width="32" height="32" />
+			<img id="playerSpriteWalk1" src="sprites/p1_walk01.png" width="32" height="32" />
+			<img id="playerSpriteWalk2" src="sprites/p1_walk02.png" width="32" height="32" />
+			<img id="playerSpriteWalk3" src="sprites/p1_walk03.png" width="32" height="32" />
+			<img id="playerSpriteWalk4" src="sprites/p1_walk04.png" width="32" height="32" />
+			<img id="playerSpriteWalk5" src="sprites/p1_walk05.png" width="32" height="32" />
+			<img id="playerSpriteWalk6" src="sprites/p1_walk06.png" width="32" height="32" />
+			<img id="playerSpriteWalk7" src="sprites/p1_walk07.png" width="32" height="32" />
+			<img id="playerSpriteWalk8" src="sprites/p1_walk08.png" width="32" height="32" />
+			<img id="playerSpriteWalk9" src="sprites/p1_walk09.png" width="32" height="32" />
+			<img id="playerSpriteWalk10" src="sprites/p1_walk10.png" width="32" height="32" />
+			<img id="playerSpriteWalk11" src="sprites/p1_walk11.png" width="32" height="32" />
+			
+			<img id="groundSprite" src="sprites/ground.png" width="32" height="32" />
+			
+			<img id="backgroundSprite" src="sprites/background.png" width="32" height="32" />
+			
+			<img id="flagSprite" src="sprites/endFlag.png" width="32" height="32" />
+			
+			<img id="platSprite1" src="sprites/plat1.png" width="32" height="16" />
+			<img id="platSprite2" src="sprites/plat2.png" width="32" height="16" />
+			<img id="platSprite3" src="sprites/plat3.png" width="32" height="16" />
+
+		</div>
+
+		<script src="main.js"></script>
+	</body>
+</html>
